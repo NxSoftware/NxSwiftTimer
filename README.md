@@ -26,4 +26,19 @@ NxSwiftTimer.scheduledTimerWithTimeInterval(3.0, userInfo: nil, repeats: true) {
   // Do something
 }
 
+// Non-repeating timer with function reference on class that doesn't inherit from NSObject
+class PureSwift {
+
+  var timer: NxSwiftTimer?
+
+  func startTimer() {
+    self.nxTimer = NxSwiftTimer.scheduledTimerWithTimeInterval(3.0, userInfo: nil, repeats: false, closure: self.timerFired)
+  }
+
+  func timerFired() {
+    println("PureSwift object says timer fired")
+  }
+
+}
+
 ```

@@ -22,6 +22,8 @@
 		AAC35FD71956FAC2009C2B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAC35FD91956FAC2009C2B5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AAC35FF01956FAE1009C2B5A /* NxSwiftTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NxSwiftTimer.swift; path = ../NxSwiftTimer.swift; sourceTree = "<group>"; };
+		AAC35FF219570709009C2B5A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AAC35FF319570709009C2B5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,8 @@
 			children = (
 				AAC35FEF1956FADB009C2B5A /* Vendor */,
 				AAC35FCF1956FAC2009C2B5A /* SwiftTimerExample */,
+				AAC35FF219570709009C2B5A /* LICENSE */,
+				AAC35FF319570709009C2B5A /* README.md */,
 				AAC35FCE1956FAC2009C2B5A /* Products */,
 			);
 			sourceTree = "<group>";
